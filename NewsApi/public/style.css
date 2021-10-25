@@ -1,0 +1,70 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@import url("https://fonts.googleapies.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapies.com/css?family=Merriweather:400,700");
+
+body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin: 0;
+    color: #444;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: seagreen;
+}
+
+article {
+    background-color: peachpuff;
+    margin-bottom: 10px;
+    padding: 0.4em;
+}
+
+article h4 {
+    color: black;
+}
+
+article img {
+    max-width: 400px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*Navigation Bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
